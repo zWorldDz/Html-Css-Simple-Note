@@ -1,0 +1,26 @@
+Course3
+The Structure and coding Style
+1. Page Structure 
+2.  HTML or XHTML
+3. HTML coding style
+4. Look into browser
+5. Example 01-Learn how to use chrome(inspect) to see html/css
+6. Recommend using Sublime Text or notepad++
+7. DOCTYPE<< tell browser what html is using
+8. Browser need to know what rule is using for display
+9. XHTML 1.0 Transitinal//EN
+10. First-Declare DOCTYPE
+11. HTML-Page Structure<< Tell the version of html
+    1. <!DOCTYPE html>
+    2.  HTML tag<< Optional
+12. Different beetwen html and xhtml
+13. Html
+    Closing tag is in other<>
+    <img src> no closing tag(Optional)
+    XHTML (<html xmlns="http://www.w3.org/1999/xhtml">)
+    -Void elements not allowed-Must closing or self closing
+    -Case name in tag are sentive
+    -Attribute values must be quotes ->> Adding ("")
+    -Empty attribute are not allowed ->> Adding checked="unchecked"
+14. File Type > Declartion in html
+    

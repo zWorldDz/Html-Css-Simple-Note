@@ -1,0 +1,80 @@
+Course Introduce 1
+The improvements in HTML5
+1. Multi media support such as video could work without browser plugin support
+2. Structure Tags
+    New Tag for form input
+    New tag for multimedia tags
+    -Draw graph
+    <body>
+    <nav></nav>
+    <article></article>
+    <aside></aside>
+    <main></main>
+    <section></section>
+    </body>
+3. Why use Html 5 functionality
+4. Chrome 50%++ user in U.SS
+5. HTML5 allows the page to display in smart device also
+6. Gap(using div)
+7. New feature of html5
+8. HTML5 Syntax, Document Structure, Form, Display Element, Audio&Video, Responsive Website
+
+Course 2
+1. How css and html related, how link
+2. Css Rules, Evolution of tags
+3. HTML=Hyper Text(Link) Markup(How the info to present) Language
+4. CSS=Cascading Style Sheet
+HTML    -Content
+HTML    -Structure(Paragraph,Heading)
+HTML    -Functionality(Button,Textfield)
+CSS    -Layout(Allow thethe text display on image0)
+CSS    -Styling(Font size, color)
+5.  <font size>
+    <span style="font-size:12px">
+    <span class="myClass">
+6. above tags doesn't recommend used in HTML5
+7. Put all styling in css, such as <font><b><i><u>
+8. Use <strong>for bold<em>for italic* Find the different=> Strong is sematic is like allow for the other styling to be controlled via CSS
+9. Good Quality Html/css, using strong ans em better
+10. Three way apply css to html
+    -Inline css<span style="font-size:12px">
+        -> Css still remain in html
+    -Internal Stlesheet
+        -> <head><Style type="text/css">p{color:red;}</head>
+        ->Problem this only apply to single page
+    -External Stylesheet
+        -> <head><link rel="stylesheet" href="path_to_css_file.css" type="text/css"></head>
+        
+11. In HTMl(Use id or class as indentifier in css-ID>CLASS>TAG, OVERRIADE WHAT IS HAS)
+    <p id="first" class="red"></p>
+    In CSS
+    P{color:greem;} 3
+    #first{color:blue;} 1
+    .red{color:red;} 2
+    
+12. <div id="first">(Debase class more closer to p)
+        <p class="red">...</p>
+    </div>
+    <p class="red">...</p>
+    
+    #first{color:blue;} 
+    .red{color:red;} 
+#first .red{color:blue;} 
+
+13. <div id="div1"> (The one more closer to the p and need compare the class)
+      <div id="div2"> 
+        <div id="div3"> 
+            <p class="p1">...</p>
+        </div>
+      </div>
+    </div>
+    #div1 p { color:red;}
+    #div2 .p1 {color:green;}
+    #div1 #div2 p{color:blue;} << need add'p' then will cover greem
+    #div .p1 {color:yellow;}<<error: becase no support two class appear at the same time
+    #div1 #div2 p{color:black;} << this one apply too due to at the last line of declaration
+14.     <div> = BLOCK(New line before and after) <- USed for sections
+        <span> = INLINE(Used for paragraph)<- Cannot apply layout styling
+    
+    
+    

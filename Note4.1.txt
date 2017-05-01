@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body></body>
+</html>
+
+1. <nav></nav> for navigation purpose
+-When using object module such as javascript
+-Tell the software , it is a funactionalty that already defined
+-Help good understaind tell the browser
+
+Other tags that within body tag
+-<nav>
+-<article> for blog or for commend/reply in overstack flow
+-<aside> example in wikipdedia
+-<main> design for main part in the page(for search engine purpose)
+-<section> used to say simply seprate the section of the content
+Section of content in article in wiki
+
+Allow more than H1 tag in different sections(In different article), wont be confuse in HTML5
+Support fotr sction tags
+1. Chrome 6.0
+2. IE 9.0
+3. FireFox 4.0
+4. Safari 5.0
+5. Opera 11.1
+
+2. Use class for the section css styling rather to the sec tag
+3.  # for IDs and . for Classes.
+
+ids are unique
+Each element can have only one id
+Each page can have only one element with that id
+
+classes are NOT unique
+You can use the same class on multiple elements.
+You can use multiple classes on the same element.
